@@ -1,0 +1,28 @@
+INFO main POM-1 - chromeBrowser is going to lounching
+INFO main POM-1 - URL is passed to the Browser 
+INFO main POM-1 - Page loade time is set to the browser 
+INFO main POM-1 - Predefined stuff is completed 
+INFO main POM-1 - This is the first testCase Under the Base test---I'm loading the LoginPage object  
+INFO main POM-1 - User name is set at the browser 
+INFO main POM-1 - Phone number is passed to the browser 
+INFO main POM-1 - Password is passed to the Browser 
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - ----  All testCasses are completed ------
+INFO main POM-1 - chromeBrowser is going to lounching
+INFO main POM-1 - URL is passed to the Browser 
+INFO main POM-1 - Page load time is set to the browser 
+INFO main POM-1 - Predefined stuff is completed 
+INFO main POM-1 - This is the first testCase Under the Base test---I'm loading the LoginPage object  
+INFO main POM-1 - User name is set at the browser 
+INFO main POM-1 - Phone number is passed to the browser 
+INFO main POM-1 - Password is passed to the Browser 
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - Screenshot is taken in the folder check -- because this testMethod is failed
+INFO main POM-1 - ----  All testCasses are completed ------

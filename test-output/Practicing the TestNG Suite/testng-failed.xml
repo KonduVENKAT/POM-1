@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Practicing the TestNG Suite]">
+  <listeners>
+    <listener class-name="com.listeners.MyAnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="5" name="Test the TESTNG things(failed)">
+    <classes>
+      <class name="com.test.LoginTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="test001"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="test002"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.LoginTest -->
+    </classes>
+  </test> <!-- Test the TESTNG things(failed) -->
+</suite> <!-- Failed suite [Practicing the TestNG Suite] -->
