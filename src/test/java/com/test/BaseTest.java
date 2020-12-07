@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Properties;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
@@ -26,7 +28,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
+
+import com.utilities.TestUtil;
 
 
 @Listeners(MyCustomListener.class)
@@ -123,7 +128,7 @@ public class BaseTest {
 	
 		System.out.println("\t\t --- SARTING THE BROWSER ---- ");
 		System.out.println("------------------------------------------------------");
-		 logger=Logger.getLogger("POM-1");
+		 logger=Logger.getLogger("POM-1");  // why it is class level and here I declared before init()
 		 PropertyConfigurator.configure("log4j.properties");
 		
 		init();
@@ -248,5 +253,18 @@ public class BaseTest {
 
 		return dateTime;
 	}
+	
+	//  -----------   For data provider  I need to create one method to get the data form the excel sheet 
+	// How to create that 
+	@DataProvider
+	public Iterator<Object[]> getTestData()
+	{
+		ArrayList<Object[]> list=TestUtil.getLoginDataFromExcel();
+		
+		return list.iterator();
+		
+	}
+	
+		
 
 }

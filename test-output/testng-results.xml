@@ -1,25 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17028" started-at="2020-09-26T17:38:52 IST" finished-at="2020-09-26T17:39:09 IST">
+  <suite name="Default suite" duration-ms="103501" started-at="2020-11-23T20:03:58 IST" finished-at="2020-11-23T20:05:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17028" started-at="2020-09-26T17:38:52 IST" finished-at="2020-09-26T17:39:09 IST">
-      <class name="com.test.DropDownTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DropDownTest@5e853265]" name="setUp" is-config="true" duration-ms="8663" started-at="2020-09-26T17:38:52 IST" finished-at="2020-09-26T17:39:01 IST">
+    <test name="Default test" duration-ms="103501" started-at="2020-11-23T20:03:58 IST" finished-at="2020-11-23T20:05:42 IST">
+      <class name="com.test.DataDrivenTest001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setUp" is-config="true" duration-ms="1336" started-at="2020-11-23T20:03:58 IST" finished-at="2020-11-23T20:04:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="multiplesSelect()[pri:0, instance:com.test.DropDownTest@5e853265]" name="multiplesSelect" duration-ms="7986" started-at="2020-09-26T17:39:01 IST" finished-at="2020-09-26T17:39:09 IST">
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10546" started-at="2020-11-23T20:04:01 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:04:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venkat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kondu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[122222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[macherla]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[venkat1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[venkat2@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multiplesSelect -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DropDownTest@5e853265]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-26T17:39:09 IST" finished-at="2020-09-26T17:39:09 IST">
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2063" started-at="2020-11-23T20:04:11 IST" finished-at="2020-11-23T20:04:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.test.DropDownTest -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10541" started-at="2020-11-23T20:04:13 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:04:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srinu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[makala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22222]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[222222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gurajala]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[srinu1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Srinu2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2072" started-at="2020-11-23T20:04:24 IST" finished-at="2020-11-23T20:04:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10672" started-at="2020-11-23T20:04:26 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:04:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jambabampala]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[333333]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[322222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yerammpalli]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[madhu1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[madhu2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2066" started-at="2020-11-23T20:04:36 IST" finished-at="2020-11-23T20:04:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10538" started-at="2020-11-23T20:04:39 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:04:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thimm Raju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Golla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[444444]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[422222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yerammpalli]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[raju1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Raju2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2074" started-at="2020-11-23T20:04:49 IST" finished-at="2020-11-23T20:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10668" started-at="2020-11-23T20:04:51 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:05:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kesava]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bakkireddy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[555555]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pulivendula]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[kesava1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Kesava2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2065" started-at="2020-11-23T20:05:02 IST" finished-at="2020-11-23T20:05:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10465" started-at="2020-11-23T20:05:04 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:05:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raghu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Golla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[66666]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[62222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yerammpalli]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Raghu1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Raghu2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2079" started-at="2020-11-23T20:05:14 IST" finished-at="2020-11-23T20:05:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10660" started-at="2020-11-23T20:05:16 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:05:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BukkaPatnam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[77777]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[722222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Medapuram]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[manju1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[manju2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2068" started-at="2020-11-23T20:05:27 IST" finished-at="2020-11-23T20:05:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setDataFeilds(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="setDataFeilds" duration-ms="10609" started-at="2020-11-23T20:05:29 IST" data-provider="dataFeilds" finished-at="2020-11-23T20:05:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhaskar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8888888]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[822222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Medapuram]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bhaskar1@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[bhaskar2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDataFeilds -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.DataDrivenTest001@2d3379b4]" name="tearDown" is-config="true" duration-ms="2083" started-at="2020-11-23T20:05:40 IST" finished-at="2020-11-23T20:05:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.DataDrivenTest001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

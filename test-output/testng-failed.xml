@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.DropDownTest">
+      <class name="com.test.DataDrivenTest001">
         <methods>
+          <include name="dataProvider" invocation-numbers="1"/>
           <include name="tearDown"/>
-          <include name="dropDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.test.DropDownTest -->
+      </class> <!-- com.test.DataDrivenTest001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
